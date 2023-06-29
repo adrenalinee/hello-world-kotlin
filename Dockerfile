@@ -1,4 +1,4 @@
-FROM docker.io/eclipse-temurin:17.0.5_8-jdk-alpine
+FROM docker.io/eclipse-temurin:17.0.7_7-jdk-jammy
 
 ENV TZ=Asia/Seoul
 RUN ln -snf /usr/share/zoneinfo/\$TZ /etc/localtime && echo \$TZ > /etc/timezone
