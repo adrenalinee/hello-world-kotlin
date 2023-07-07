@@ -9,7 +9,9 @@ plugins {
 }
 
 group = "com.example"
-version = "0.0.1-SNAPSHOT"
+
+val jar: Jar by tasks
+jar.enabled = false
 
 java {
     sourceCompatibility = JavaVersion.VERSION_17
